@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.citaterne {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.citat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 340px;
+  height: 310px;
+  border: 1px solid grey;
+  border-radius: 7px;
+  margin: 10px auto;
+  background-image: linear-gradient(to bottom, #214075, #006897, #0090b0, #43b7c1, #80dece);
+}
